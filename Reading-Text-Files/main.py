@@ -8,7 +8,7 @@ def read_file_content(filename):
     file = filenames.read()
     return file
 
-#read_file_content("c:/Users/sanmi/Downloads/Reading-Text-Files/Reading-Text-Files/story.txt")
+#read_file_content("./story.txt")
 
 
 def count_words(text_file):
@@ -27,6 +27,6 @@ def count_words(text_file):
 
 
     # [assignment] Add your code here
-print(count_words("c:/Users/sanmi/Downloads/Reading-Text-Files/Reading-Text-Files/story.txt"))
+print(count_words("./story.txt"))
 
     #return {"as": 10, "would": 20}
