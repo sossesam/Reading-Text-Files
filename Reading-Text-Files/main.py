@@ -8,7 +8,7 @@ def read_file_content(filename):
     file = filenames.read()
     return file
 
-#read_file_content("./story.txt")
+read_file_content("./story.txt")
 
 
 def count_words(text_file):
